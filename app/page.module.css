@@ -1,0 +1,26 @@
+.main {
+  align-items: center;
+  min-height: 100vh;
+}
+
+.container {
+  max-width: 120rem;
+  margin: auto;
+}
+
+.capitalize {
+  text-transform: capitalize;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+@keyframes rotate {
+  from {
+    transform: rotate(360deg);
+  }
+  to {
+    transform: rotate(0deg);
+  }
+}
